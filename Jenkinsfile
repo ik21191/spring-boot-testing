@@ -28,7 +28,8 @@ pipeline {
 
 		stage('Deploy') {
 			steps {
-			    bat "mvn jar:jar deploy:deploy"
+				echo "deploy is not supported yet."
+			    //bat "mvn jar:jar deploy:deploy"
 			}
 		}
 	}
